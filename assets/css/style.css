@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header styles start here */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -38,6 +39,12 @@ header nav ul li {
     margin-left: 25px;
 }
 
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* end of header styles */
+
 .hero img {
     height: 800px;
     width: 100%;
@@ -46,6 +53,7 @@ header nav ul li {
     position: center;
 }
 
+/* content styles start here */
 .content {
     width: 75%;
     display: inline-block;
@@ -60,11 +68,6 @@ header nav ul li {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
 }
 
 p {
@@ -116,7 +119,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end of content styles*/
 
+/* footer styles start here */
 footer {
     padding: 30px;
     clear: both;
@@ -127,3 +132,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* end of footer styles */
