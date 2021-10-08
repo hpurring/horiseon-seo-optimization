@@ -58,6 +58,7 @@ header a {
 }
 
 /* content styles start here */
+
 .content {
     width: 75%;
     display: inline-block;
@@ -78,7 +79,7 @@ p {
     font-size: 16px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.content > * {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
