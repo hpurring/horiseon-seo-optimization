@@ -12,12 +12,16 @@ body {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #123648;
     color: #ffffff;
+    display: flex;
+    flex: 1 1 500px;
+    justify-content: space-between;
 }
 
 header h1 {
-    display: inline-block;
+    display: flex;
+    align-items: flex-end;
     font-size: 48px;
 }
 
@@ -103,7 +107,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefits > * {
     display: block;
     margin-bottom: 32px;
     color: #ffffff;
