@@ -48,7 +48,6 @@ header a {
     text-decoration: none;
 }
 /* end of header styles */
-
 .hero img {
     height: 800px;
     width: 100%;
@@ -58,7 +57,6 @@ header a {
 }
 
 /* content styles start here */
-
 .content {
     width: 75%;
     display: inline-block;
@@ -96,7 +94,9 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* end of content styles */
 
+/* benefits styles start here */
 .benefits {
     margin-right: 20px;
     padding: 0 20px 10px 20px;
@@ -124,7 +124,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/* end of content styles*/
+/* end of benefit styles*/
 
 /* footer styles start here */
 footer {

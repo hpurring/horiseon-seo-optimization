@@ -4,7 +4,7 @@
 
 <a name ="desc"></a>
 ## **Description**
-This project demonstrates how I would refactor HTML and CSS code and improve a site's performance, accessibility, and SEO. Changes include:
+This project demonstrates how I would refactor HTML and CSS code and improve a site's performance, accessibility, and SEO. Changes to Horiseon's landing page include:
 
 * **Improvements to HTML**
     * Changed many div tags to more descriptive tags (header, section, etc.) to make code clearer
@@ -14,8 +14,9 @@ This project demonstrates how I would refactor HTML and CSS code and improve a s
 * **Improvements to CSS**
     * Changed order of rules to match flow of HTML code
     * Grouped rules together to remove redundant/repetitive code
+    * Added flexbox responsiveness to the header/navigation
     * Added comments to describe code purpose
-    
+
 * **Improvements to Performance**
     * Resized images
     * Added exact image sizes to the code
@@ -29,9 +30,9 @@ This project demonstrates how I would refactor HTML and CSS code and improve a s
     * Added a meta description to the head
     * Added a viewport meta tag to the head
 
+**Final Version**
 
-![landing page screenshot)
-(./assets/images/screenshot.png)
+![landing page screenshot](assets/images/screenshot.png) 
 
 ## **Installation**
 None required.
